@@ -1,0 +1,171 @@
+@font-face {
+  font-family: "HKGrotesk-Black.otf";
+  src: url(../font/HKGrotesk-Black.otf);
+}
+header {
+  margin-top: -20px;
+  overflow: auto;
+}
+hr {
+  border-style: dotted;
+}
+body {
+  margin: 0%;
+  background-color: rgba(189, 196, 95, 0.452);
+  font-family: "HKGrotesk-Black.otf";
+}
+.first {
+  width: 10%;
+  display: inline-block;
+}
+nav {
+  float: right;
+  margin-top: 60px;
+  margin-right: 40px;
+}
+nav a {
+  margin-right: 22px;
+  text-decoration: none;
+  color: black;
+}
+nav a:first-child:visited {
+  color: #a73a3a;
+}
+.container {
+  margin: auto;
+  max-width: 1240px;
+}
+.banniere {
+  height: 280px;
+  width: 100%;
+}
+.image {
+  position: relative;
+}
+.bottom-left {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgba(238, 236, 236, 0.5); /* Black background with 0.5 opacity */
+  color: #0c0c0c;
+  margin-bottom: 4px;
+  width: 96.8%; /* Full width */
+  padding: 20px; /* Some padding */
+  font-size: 10px;
+}
+button {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  background-color: rgb(94, 12, 12);
+  color: white;
+  padding: 10px;
+}
+.left {
+  width: 54%;
+  display: inline-block;
+}
+.right {
+  float: right;
+  width: 33%;
+  background-color: #6d6449;
+  color: white;
+  padding: 10px;
+}
+.second {
+  width: 30%;
+  display: block;
+  margin: auto;
+}
+.right h2 {
+  text-align: center;
+}
+.tweet {
+  display: inline-block;
+  width: 30%;
+}
+.photos {
+  display: inline-block;
+  width: 22%;
+}
+.amis {
+  display: inline-block;
+  width: 10%;
+}
+.pho {
+  width: 20%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.icon {
+  text-align: center;
+}
+.fa {
+  padding: 2px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+ul li {
+  color: #bb0000;
+}
+@media only screen and (max-width: 768px) {
+  .left {
+    display: block;
+    width: 100%;
+  }
+  .right {
+    float: none;
+    width: 94%;
+  }
+  .container {
+    padding: 20px;
+  }
+  footer {
+    display: flex;
+    column-gap: 20px;
+  }
+  .amis {
+    width: 50%;
+  }
+  .photos {
+    width: 30%;
+  }
+  .pho {
+    width: 28%;
+  }
+  .first {
+    width: 40%;
+    display: block;
+    margin: auto;
+  }
+  .bottom-left{
+    font-size: 8px;
+  }
+}
